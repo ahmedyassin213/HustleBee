@@ -44,7 +44,7 @@ header{
     .bee{
         position: absolute;
         font-size: 34px;
-        left: 15%;
+        left: 14%;
         top: 20%;
     }
     background-color: var(--bg);
@@ -156,11 +156,12 @@ header{
         .one{
             grid-column: 1/2;
             grid-row: 1/3;
-            height: 94%;
+            height: 89%;
         }
         .two{
             grid-column: 2/3;
             grid-row: 1/2;
+            height: 90%;
         }
         .three{
             grid-column: 2/3;
@@ -169,7 +170,7 @@ header{
         span{
             width: fit-content;
             position: absolute;
-            bottom: -2%;
+            bottom: 4%;
             right: 10%;
              animation: wiggle 2s ease-in-out infinite;
         }
@@ -291,7 +292,7 @@ h2{
         }
         .cell4{
             img{
-                height: 595px;
+                height: 515px;
             }
             grid-row: 2/4;
             grid-column: 1/2;
@@ -347,7 +348,7 @@ h2{
             margin: 40px;
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 10px;
             .spans{
                 display: flex;
                 gap: 15px;
@@ -396,9 +397,9 @@ h2{
             }
             .imgTwo{
                 position: absolute;
-                width: 80px;
+                width: 70px;
                 left: 10%;
-                top: 40%;
+                top: 32%;
                 border-radius: 25px;
                 border: 1px solid var(--primary);
             }
@@ -452,7 +453,7 @@ h2{
             margin: 40px;
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 7px;
             .spans{
                 display: flex;
                 gap: 15px;
